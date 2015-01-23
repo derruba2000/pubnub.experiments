@@ -1,0 +1,29 @@
+{
+  "name": "pubnub.experiments",
+  "version": "1.0.0",
+  "description": "a pubnub publisher server using node.js",
+  "main": "publisher-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "node publisher-server.js Ipsumchannel ContentPT Message2You"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/derruba2000/pubnub.experiments.git"
+  },
+  "keywords": [
+    "node.js",
+    "pubnub"
+  ],
+  "author": "João Ramos",
+  "license": "Free",
+  "bugs": {
+    "url": "https://github.com/derruba2000/pubnub.experiments/issues"
+  },
+  "homepage": "https://github.com/derruba2000/pubnub.experiments",
+  "dependencies": {
+    "dummy-json": "0.0.2",
+    "pubnub": "^3.7.8",
+    "schedule": "^0.1.0"
+  }
+}
