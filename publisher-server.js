@@ -1,4 +1,4 @@
-'use script';
+'use strict';
 
 var pubnub = require("pubnub")({
         ssl           : true,  // <- enable TLS Tunneling over TCP
